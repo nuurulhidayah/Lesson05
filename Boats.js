@@ -56,7 +56,11 @@ class Boat extends React.Component {
 const boatList = () => {
   return PRODUCTS_DATA.map((boat) => {
     return (
-      <Boat name={boat.name} description={boat.description} picture={boat.picture} />
+      <Boat
+        name={boat.name}
+        description={boat.description}
+        picture={boat.picture}
+      />
     );
   });
 };

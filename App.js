@@ -1,6 +1,5 @@
 import React from 'react';
-import {ScrollView} from 'react-native';
-import {Text} from 'react-native';
+import {ScrollView, Text} from 'react-native';
 import Movies from './Movies.js';
 import Boats from './Boats';
 
